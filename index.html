@@ -5,20 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>promomix</title>
+    <link rel="stylesheet" href="./css/modern-normalize.css" />
+    <link rel="stylesheet" href="./fonts/stylesheet.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Header -->
-    <header>
-      <a href="./index.html" lang="en">promomix</a>
-      <nav>
-        <ul>
-          <li>
-            <button type="button">поиск</button>
+    <header class="header">
+      <nav class="container navigation">
+        <a class="logo" href="./index.html" lang="en">
+          <svg width="163.77" height="20">
+            <use href="./images/icons/sprite.svg#icon-logo"></use>
+          </svg>
+        </a>
+        <ul class="list">
+          <li class="list-item">
+            <button type="button" class="button-icon">
+              <svg class="header-icon" width="20" height="20">
+                <use href="./images/icons/sprite.svg#icon-search"></use>
+              </svg>
+              поиск
+            </button>
           </li>
-          <li>
-            <a href="tel:84964290900">8 496 429 09 00</a>
+          <li class="list-item">
+            <a href="tel:+84964290900">8 496 429 09 00</a>
           </li>
-          <li>
+          <li class="list-item">
             <button type="button">оставить заявку</button>
           </li>
         </ul>
@@ -27,275 +39,332 @@
 
     <!-- Main promomix -->
     <main>
-      <section>
-        <h1>
-          Promomix –<br />рекламное агентство<br />
-          полного цикла
-        </h1>
-        <ul>
-          <li>
-            <a href="">facebook</a>
-          </li>
-          <li>
-            <a href="">vkontakte</a>
-          </li>
-          <li>
-            <a href="">instagram</a>
-          </li>
-        </ul>
+      <section class="hero">
+        <div class="container">
+          <h1>
+            <span> promomix –</span><br />рекламное агентство<br />
+            полного цикла
+          </h1>
+          <ul class="social-list list">
+            <li class="list-item">
+              <a href="">facebook</a>
+            </li>
+            <li class="list-item">
+              <a href="">vkontakte</a>
+            </li>
+            <li class="list-item">
+              <a href="">instagram</a>
+            </li>
+          </ul>
+        </div>
       </section>
-      <section>
-        <p>услуги</p>
-        <h2>ключевые направления</h2>
-        <ul>
-          <li>
-            <a href="">Наружная реклама</a>
+
+      <!-- feauters -->
+      <section class="section container">
+        <p class="subtittle">услуги</p>
+        <h2 class="tittle feauters-tittle">
+          <span class="tittle-text">ключевые</span>
+          <span class="tittle-color">направления</span>
+        </h2>
+        <ul class="feauters-list">
+          <li class="feauters-list-item">
+            <a href="" class="feauters-link">
+              <svg width="70" height="70">
+                <use href="./images/icons/sprite.svg#icon-svg1"></use>
+              </svg>
+              <div class="feauters-link-text">
+                Наружная<br />
+                реклама
+              </div>
+            </a>
           </li>
-          <li>
-            <a href="">Широкоформатная печать</a>
+          <li class="feauters-list-item">
+            <a href="" class="feauters-link">
+              <svg width="70" height="70">
+                <use href="./images/icons/sprite.svg#icon-svg2"></use>
+              </svg>
+              <div class="feauters-link-text">
+                Широкоформатная<br />
+                печать
+              </div>
+            </a>
           </li>
-          <li>
-            <a href="">Рекламная полиграфия</a>
+          <li class="feauters-list-item">
+            <a href="" class="feauters-link">
+              <svg width="70" height="70">
+                <use href="./images/icons/sprite.svg#icon-svg3"></use>
+              </svg>
+              <div class="feauters-link-text">
+                Рекламная<br />
+                полиграфия
+              </div>
+            </a>
           </li>
-          <li>
-            <a href="">Сувенирная продукция</a>
+          <li class="feauters-list-item">
+            <a href="" class="feauters-link">
+              <svg width="70" height="70">
+                <use href="./images/icons/sprite.svg#icon-svg4"></use>
+              </svg>
+              <div class="feauters-link-text">
+                Сувенирная<br />
+                продукция
+              </div>
+            </a>
           </li>
-          <li>
-            <a href="">Внутренняя реклама</a>
+          <li class="feauters-list-item">
+            <a href="" class="feauters-link">
+              <svg width="70" height="70">
+                <use href="./images/icons/sprite.svg#icon-svg5"></use>
+              </svg>
+              <div class="feauters-link-text">
+                Внутренняя<br />
+                реклама
+              </div>
+            </a>
           </li>
-          <li>
-            <a href="">Брендирование одежды</a>
+          <li class="feauters-list-item">
+            <a href="" class="feauters-link">
+              <svg width="70" height="70">
+                <use href="./images/icons/sprite.svg#icon-svg6"></use>
+              </svg>
+              <div class="feauters-link-text">
+                Брендирование<br />
+                одежды
+              </div>
+            </a>
           </li>
-          <li>
-            <a href="">Брендирование транспорта</a>
+          <li class="feauters-list-item">
+            <a href="" class="feauters-link">
+              <svg width="70" height="70">
+                <use href="./images/icons/sprite.svg#icon-svg7"></use>
+              </svg>
+              <div class="feauters-link-text">
+                Брендирование<br />
+                транспорта
+              </div>
+            </a>
           </li>
-          <li>
-            <a href="">Все услуги</a>
+          <li class="feauters-list-item">
+            <a href="" class="feauters-link">
+              <svg width="70" height="70">
+                <use href="./images/icons/sprite.svg#icon-svg8"></use>
+              </svg>
+              <div class="feauters-link-text">Все услуги</div>
+            </a>
           </li>
         </ul>
       </section>
 
       <!-- Преимущества -->
-      <section>
-        <p>наши преимущества</p>
-        <h2>
-          Создаем рекламу<br />
-          и формируем имидж<br />
-          компаний
-        </h2>
-        <ul>
-          <li>
-            <p>18+</p>
-            <p>лет опыта на рекламном рынке</p>
-          </li>
-          <li>
-            <p>250+</p>
-            <p>реализованных проектов</p>
-          </li>
-          <li>
-            <p>37</p>
-            <p>квалифицированных сотрудников</p>
-          </li>
-          <li>
-            <p>14+</p>
-            <p>профессионального оборудования</p>
-          </li>
-        </ul>
+      <section class="section advantages-container advantages-background">
+        <div class="container">
+          <div class="advantages-main-box">
+            <div class="advantages-box">
+              <p class="subtittle">наши преимущества</p>
+              <h2 class="tittle advantages-tittle">
+                <span class="tittle-color">Создаем рекламу</span> и формируем имидж<br />
+                компаний
+              </h2>
+            </div>
+            <div class="advantages-box">
+              <ul class="advantages-list">
+                <li class="advantages-list-item">
+                  <p class="advantages-tittle-text">18+</p>
+                  <p class="advantages-text">
+                    лет опыта на<br />
+                    рекламном рынке
+                  </p>
+                </li>
+                <li class="advantages-list-item">
+                  <p class="advantages-tittle-text">250+</p>
+                  <p class="advantages-text">
+                    реализованных<br />
+                    проектов
+                  </p>
+                </li>
+                <li class="advantages-list-item">
+                  <p class="advantages-tittle-text">37</p>
+                  <p class="advantages-text">
+                    квалифицированных<br />
+                    сотрудников
+                  </p>
+                </li>
+                <li class="advantages-list-item">
+                  <p class="advantages-tittle-text">14+</p>
+                  <p class="advantages-text">
+                    профессионального<br />
+                    оборудования
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </section>
 
       <!-- Работы -->
-      <section>
-        <p>наши работы</p>
-        <h2>Воплощаем идеи</h2>
-        <ul>
-          <li>
-            <div>
-              <img
-                src="./images/main/img1.jpg"
-                alt="starbacks"
-                width="570"
-                height="370"
-              />
-            </div>
-            <h3>Кафе Starbucks Coffee</h3>
-            <p>Вывеска объемная</p>
-          </li>
-          <li>
-            <div>
-              <img
-                src="./images/main/img2.jpg"
-                alt="flora"
-                width="570"
-                height="570"
-              />
-            </div>
-            <h3>Bio бутик Flora</h3>
-            <p>Наружная реклама</p>
-          </li>
-          <li>
-            <div>
-              <img
-                src="./images/main/img3.jpg"
-                alt="emosi"
-                width="570"
-                height="370"
-              />
-            </div>
-            <h3>Сеть ресторанов Emosi</h3>
-            <p>Вывеска объемная</p>
-          </li>
-          <li>
-            <div>
-              <img
-                src="./images/main/img4.jpg"
-                alt="sierra"
-                width="570"
-                height="570"
-              />
-            </div>
-            <h3>Бизнес центр Sierra</h3>
-            <p>Фирменный стиль</p>
-          </li>
-          <li>
-            <div>
-              <img
-                src="./images/main/img5.jpg"
-                alt="студия"
-                width="570"
-                height="370"
-              />
-            </div>
-            <h3>Релакс студия Flora</h3>
-            <p>Фирменный стиль</p>
-          </li>
-          <li>
-            <div>
-              <img
-                src="./images/main/img6.jpg"
-                alt="levi`s"
-                width="570"
-                height="570"
-              />
-            </div>
-            <h3>Магазин Levi's</h3>
-            <p>Входная группа и вывеска</p>
-          </li>
-        </ul>
-        <button type="button">Все работы</button>
+      <section class="section">
+        <div class="container">
+          <p class="subtittle">наши работы</p>
+          <h2 class="tittle">Воплощаем <span class="tittle-color">идеи</span></h2>
+          <ul class="works-list">
+            <li class="works-list-item">
+              <a href="" class="works-list-link">
+                <img src="./images/main/img1.jpg" alt="starbacks" width="570" height="370" />
+                <h3 class="works-list-tittle">Кафе Starbucks Coffee</h3>
+                <p class="works-text">Вывеска объемная</p>
+              </a>
+            </li>
+            <li class="works-list-item">
+              <a href="" class="works-list-link">
+                <img src="./images/main/img2.jpg" alt="flora" width="570" height="570" />
+                <h3 class="works-list-tittle">Bio бутик Flora</h3>
+                <p class="works-text">Наружная реклама</p>
+              </a>
+            </li>
+            <li class="works-list-item">
+              <a href="" class="works-list-link">
+                <img src="./images/main/img3.jpg" alt="emosi" width="570" height="370" />
+                <h3 class="works-list-tittle">Сеть ресторанов Emosi</h3>
+                <p class="works-text">Вывеска объемная</p>
+              </a>
+            </li>
+            <li class="works-list-item">
+              <a href="" class="works-list-link">
+                <img class="works-img" src="./images/main/img4.jpg" alt="sierra" width="570" height="570" />
+                <h3 class="works-list-tittle">Бизнес центр Sierra</h3>
+                <p class="works-text">Фирменный стиль</p>
+              </a>
+            </li>
+            <li class="works-list-item">
+              <a href="" class="works-list-link">
+                <img class="works-img" src="./images/main/img5.jpg" alt="студия" width="570" height="370" />
+                <h3 class="works-list-tittle">Релакс студия Flora</h3>
+                <p class="works-text">Фирменный стиль</p>
+              </a>
+            </li>
+            <li class="works-list-item">
+              <a href="" class="works-list-link">
+                <img src="./images/main/img6.jpg" alt="levi`s" width="570" height="570" />
+                <h3 class="works-list-tittle">Магазин Levi's</h3>
+                <p class="works-text">Входная группа и вывеска</p>
+              </a>
+            </li>
+          </ul>
+          <a href="" class="works-all">
+            <svg class="link-item" width="23" height="23">
+              <use href="./images/icons/sprite.svg#icon-plus23"></use>
+            </svg>
+            <p class="works-scroll">Все работы</p>
+          </a>
+        </div>
       </section>
 
       <!-- Партнеры -->
-      <section>
-        <p>Наши партнёры</p>
-        <h2>
-          400+ компаний<br />
-          доверяют нам
-        </h2>
-        <ul>
-          <li>
-            <a href="">
-              <img src="./images/logo/image1.svg" alt="puma" />
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="./images/logo/image2.svg" alt="тинькофф" />
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="./images/logo/image3.svg" alt="ашан" />
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="./images/logo/image4.svg" alt="lukoil" />
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="./images/logo/image5.svg" alt="nike" />
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="./images/logo/image6.svg" alt="zara" />
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="./images/logo/image7.svg" alt="adidas" />
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="./images/logo/image8.svg" alt="ostin" />
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="./images/logo/image9.svg" alt="газпром" />
-            </a>
-          </li>
-        </ul>
+      <section class="section partners-container partners-background">
+        <div class="container partners-box">
+          <div>
+            <p class="subtittle">Наши партнёры</p>
+            <h2 class="tittle">
+              <span class="tittle-color">400+</span> компаний<br />
+              доверяют нам
+            </h2>
+          </div>
+          <div class="partners-box-icon">
+            <ul class="partners-box-list">
+              <li class="partners-box-item">
+                <img src="./images/main/puma.png" alt="puma" width="124" />
+              </li>
+              <li class="partners-box-item">
+                <img src="./images/main/tinkoff.png" alt="tinkoff" width="134" />
+              </li>
+              <li class="partners-box-item">
+                <img src="./images/main/ashan.png" alt="ашан" width="114" />
+              </li>
+              <li class="partners-box-item">
+                <img src="./images/main/lukoil.png" alt="lukoil" width="139" />
+              </li>
+              <li class="partners-box-item">
+                <img src="./images/main/nike.png" alt="nike" width="100" />
+              </li>
+              <li class="partners-box-item">
+                <img src="./images/main/zara.png" alt="zara" width="106" />
+              </li>
+              <li class="partners-box-item">
+                <img src="./images/main/Adidas.png" alt="adidas" width="102" />
+              </li>
+              <li class="partners-box-item">
+                <img src="./images/main/ostin.png" alt="ostin" width="153" />
+              </li>
+              <li class="partners-box-item">
+                <img src="./images/main/gazprom.png" alt="gazprom" width="124" />
+              </li>
+            </ul>
+          </div>
+        </div>
       </section>
 
       <!-- Статьи -->
-      <section>
-        <p>статьи и новости</p>
-        <h2>Все самое интересное</h2>
-        <ul>
-          <li>
-            <p>новости</p>
-            <div>
-              <img src="./images/article/img1.jpg" alt="вывеска" />
-            </div>
-            <div>
-              <p>21. 03. 2020</p>
-              <h3>Уникальная услуга «вывеска в аренду»</h3>
-              <p>
-                У владельца любого малого, но успешно развивающегося бизнеса
-                рано или поздно возникает необходимость в дополнительной
-                визуальной рекламе.
-              </p>
-              <button type="button">подробнее</button>
-            </div>
-          </li>
-          <li>
-            <p>новости</p>
-            <div>
-              <img src="./images/article/img2.jpg" alt="журналы" />
-            </div>
-            <div>
-              <p>21. 03. 2020</p>
-              <h3>Лайфхаки полиграфии от заказчиков</h3>
-              <p>
-                Лайфхаки полиграфии от опытных заказчиков. Сегодня услуги по
-                печати рекламных материалов, кажется, не предоставляет только
-                ленивый. Так как предложений очень много, то, соответственно и
-                достаточно высок.
-              </p>
-              <button type="button">подробнее</button>
-            </div>
-          </li>
-          <li>
-            <p>новости</p>
-            <div>
-              <img src="./images/article/img3.jpg" alt="сборка" />
-            </div>
-            <div>
-              <p>21. 03. 2020</p>
-              <h3>Полиграфия для бизнеса</h3>
-              <p>
-                Чтобы выделиться среди конкурентов на современном рынке товаров
-                и услуг, или познакомить как можно большее количество людей с
-                новым предприятием, нужна эффективная реклама.
-              </p>
-              <button type="button">подробнее</button>
-            </div>
-          </li>
-        </ul>
-        <a href="">Все статьи</a>
+      <section class="section">
+        <div class="container">
+          <p class="subtittle">статьи и новости</p>
+          <h2 class="tittle">Все самое <span class="tittle-color">интересное</span></h2>
+          <ul>
+            <li>
+              <a href="">
+                <div class="posts-link">
+                  <div class="posts-link-item posts-link-lokation">
+                    <p class="posts-subtittle">новости</p>
+                    <img src="./images/article/img1.jpg" alt="вывеска" width="420" height="236" />
+                  </div>
+                  <div class="posts-link-item">
+                    <p class="posts-date">21. 03. 2020</p>
+                    <h3>Уникальная услуга «вывеска в аренду»</h3>
+                    <p>
+                      У владельца любого малого, но успешно развивающегося бизнеса рано или поздно возникает
+                      необходимость в дополнительной визуальной рекламе.
+                    </p>
+                    <svg width="12" height="8.5">
+                      <use href="./images/icons/sprite.svg#icon-arrow-right"></use>
+                    </svg>
+                    <p>подробнее</p>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <p class="posts-subtittle">новости</p>
+              <div>
+                <img src="./images/article/img2.jpg" alt="журналы" />
+              </div>
+              <div>
+                <p class="posts-date">21. 03. 2020</p>
+                <h3>Лайфхаки полиграфии от заказчиков</h3>
+                <p>
+                  Лайфхаки полиграфии от опытных заказчиков. Сегодня услуги по печати рекламных материалов, кажется, не
+                  предоставляет только ленивый. Так как предложений очень много, то, соответственно и достаточно высок.
+                </p>
+                <button type="button">подробнее</button>
+              </div>
+            </li>
+            <li>
+              <p class="posts-subtittle">новости</p>
+              <div>
+                <img src="./images/article/img3.jpg" alt="сборка" />
+              </div>
+              <div>
+                <p class="posts-date">21. 03. 2020</p>
+                <h3>Полиграфия для бизнеса</h3>
+                <p>
+                  Чтобы выделиться среди конкурентов на современном рынке товаров и услуг, или познакомить как можно
+                  большее количество людей с новым предприятием, нужна эффективная реклама.
+                </p>
+                <button type="button">подробнее</button>
+              </div>
+            </li>
+          </ul>
+          <a href="">Все статьи</a>
+        </div>
       </section>
     </main>
 
@@ -335,10 +404,7 @@
           </ul>
         </div>
         <div>
-          <p>
-            Чтобы быть в курсе всех акций и новых событий, подпишитесь на нашу
-            рассылку.
-          </p>
+          <p>Чтобы быть в курсе всех акций и новых событий, подпишитесь на нашу рассылку.</p>
           <form>
             <input type="email" placeholder="Ваш e-mail" />
             <!-- <input type="submit" placeholder="&#8594;" /> -->
